@@ -9,13 +9,11 @@ public class exercise04 {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Qual horário o jogo iniciou?");
 		int horaInicial = sc.nextInt();
-		System.out.println("Qual horŕrio o jogo terminou?");
+		System.out.println("Qual horário o jogo terminou?");
 		int horaFinal = sc.nextInt();
-		int horaTotal = horaInicial + horaFinal;
-		if (horaInicial + horaFinal > 24) {
-			horaTotal -= 24;
-		}
+		int horaTotal = 24 - horaInicial+ horaFinal;
 		System.out.println(horaTotal);
+		
 		sc.close();
 	}
 
