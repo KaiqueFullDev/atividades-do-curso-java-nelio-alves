@@ -1,7 +1,7 @@
-package exerciseWhile;
+package Basico;
 import java.util.Scanner;
 
-public class exercise3 {
+public class exercise09 {
 
 	public static void main(String[] args) {
 		
